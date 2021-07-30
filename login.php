@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- css -->
-    <link rel="stylesheet" href="login.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="dating-app/css/style.css?v=<?php echo time(); ?>">
 
     <!-- boxicon -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- poppins font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- main -->
@@ -35,8 +35,8 @@
                             
                             <input type="submit" value="Login in" class="login__button">
                             
-                            <button class="forget__button"><a class="forget__link" href="/dating-app/html/Registration.html">Register Now</a></button>
-                            <button class="forget__button"><a class="forget__link" href="/dating-app/html/ResetPassword.html">Forgot Password?</a></button>
+                            <button class="forget__button"><a class="forget__link" href="Registration.php">Register Now</a></button>
+                            <button class="forget__button"><a class="forget__link" href="ResetPassword.php">Forgot Password?</a></button>
                         </form>
                         
                     <!-- </div> -->
