@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- css -->
-    <link rel="stylesheet" href="/dating-app/css/login.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="login.css?v=<?php echo time(); ?>">
 
     <!-- boxicon -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
@@ -42,7 +42,7 @@
                     <!-- </div> -->
                 </div>
 
-                <img class="hero__img" src="/dating-app/img/subtle-asian.jpg" alt="">
+                <img class="hero__img" src="dating-app/img/subtle-asian.jpg" alt="">
             </div>
         </section>
     </main>
