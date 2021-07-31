@@ -22,7 +22,25 @@
         <section class="hero">
             <div class="hero__container">
                 <div class="form__content">
-                    
+                    <div class="info__container">
+                        <h1>Sign Up</h1>
+                        <form action="dating-app/includes/signup.inc.php" class="form">
+                            <div class="first__name__container">
+                                <spam class="first__name__title">First Name</spam>
+                                <input type="text">first__name__register</input>
+                            </div>
+                            <div class="first__name__container">
+                                <spam class="first__name__title">First Name</spam>
+                                <input type="text">first__name__register</input>
+                            </div>
+                            <div class="first__name__container">
+                                <spam class="first__name__title">First Name</spam>
+                                <input type="text">first__name__register</input>
+                            </div>
+                            <input type="radio" class="accept">
+                            <input type="submit" class="login__button" placeholder="Sign Up">
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
