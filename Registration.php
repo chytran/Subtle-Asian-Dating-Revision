@@ -26,21 +26,21 @@
                         <h1>Sign Up</h1>
                         <form action="dating-app/includes/signup.inc.php" class="form">
                             <div class="first__name__container">
-                                <spam class="first__name__title">First Name</spam>
-                                <input type="text">first__name__register</input>
+                                <spam class="first__name__title">Name</spam>
+                                <input type="text" name="name"></input>
                             </div>
-                            <div class="first__name__container">
-                                <spam class="first__name__title">First Name</spam>
-                                <input type="text">first__name__register</input>
+                            <div class="email__container">
+                                <spam class="email__title">Email</spam>
+                                <input type="text" name="email"></input>
                             </div>
-                            <div class="first__name__container">
-                                <spam class="first__name__title">First Name</spam>
-                                <input type="text">first__name__register</input>
+                            <div class="password__container">
+                                <spam class="password__title">Password</spam>
+                                <input type="text" name="password"></input>
                             </div>
                             <input type="radio" class="accept">
-                            <input type="submit" class="login__button" placeholder="Sign Up">
+                            <button type="submit" name="submit">Sign Up</button>
                         </form> 
-                        
+            
                     </div>
                 </div>
             </div>
