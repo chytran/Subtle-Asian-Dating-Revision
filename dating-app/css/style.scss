@@ -373,21 +373,91 @@ section {
 
 /*====================== SIGN UP ==============================*/
 
+.form__content__signup {
+    height: 531px;
+    width: 411px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: -10px;
+    box-shadow: 1px 1px 7px #121212;
+}
+
 .signup__button {
     margin-top: 1.5rem;
-    width: 182px;
-    height: 67px;
+    width: 152px;
+    height: 57px;
     background-color: #85CEC2;
     border: transparent;
     border-radius: 10px;
     color: #FFF;
-    font-size: 26px;
+    font-size: 20px;
     font-family: "Segoe UI", sans-serif;
     font-weight: 500;
     transition: 0.5s;
     cursor: pointer;
+    align-self: flex-start;
+    margin-left: 0.75rem;
 }
 
-.info__container {
-    
+.signup__header {
+    height:  20%;
 }
+
+.name__container,
+.email__container,
+.password__container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.name__title,
+.email__title,
+.password__title {
+    position: relative;
+    align-self: flex-start;
+    // margin-left: 0.5rem;
+}
+
+.input {
+    width: 102.5%;
+    height: 30px;
+}
+
+input[type="text"] {
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+input[type=text], textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #DDDDDD;
+  }
+
+input[type=text]:focus, textarea:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(81, 203, 238, 1);
+  }
+
+.accept,
+.radio__container {
+    position: relative;
+    align-self: flex-start;
+    margin-left: 0.5rem;
+    margin-top: 0.25rem;
+}
+
