@@ -405,6 +405,20 @@ section {
 
 .signup__header {
     height:  20%;
+    font-size: 1.6rem;
+    align-self: flex-start;
+    margin-left: 15%;
+    margin-bottom: -3rem;
+    padding-top: 0.5rem;
+}
+
+.divider {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:#DDDDDD;
+    height: 1px;
 }
 
 .name__container,

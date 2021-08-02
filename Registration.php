@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
 
-    /*============== CSS ==============*/
+    <!--============== CSS ==============-->
     <link rel="stylesheet" href="dating-app/css/style.css?v=<?php echo time(); ?>">
 
     <!-- boxicon -->
@@ -26,6 +26,7 @@
             <div class="hero__container">
                 <div class="form__content__signup">
                     <h1 class="signup__header">Sign Up</h1>
+                    <hr class="divider">
                     <form action="dating-app/includes/signup.inc.php" class="form">
                         <div class="name__container">
                             <spam class="name__title">Name</spam>
