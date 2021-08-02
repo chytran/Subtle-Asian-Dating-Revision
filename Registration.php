@@ -39,7 +39,8 @@
                             </div>
                             <input type="radio" class="accept">
                             <input type="submit" class="login__button" placeholder="Sign Up">
-                        </form>
+                        </form> 
+                        
                     </div>
                 </div>
             </div>
