@@ -15,6 +15,9 @@
     <!-- poppins font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--======================== JQUERY ==========================-->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
 </head>
 <body>
     <!-- main -->
@@ -46,8 +49,5 @@
             </div>
         </section>
     </main>
-    <script>
-        $(document).ready
-    </script>
 </body>
 </html>

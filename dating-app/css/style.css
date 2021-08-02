@@ -510,6 +510,7 @@ section {
   -ms-flex-item-align: start;
       align-self: flex-start;
   margin-left: 0.75rem;
+  padding-bottom: 0.1rem;
 }
 
 .signup__header {
