@@ -10,7 +10,26 @@ if (isset($_POST["submit"])) {
     require_once 'functions.inc.php';
 
     if (emptyInputSignup($name, $email, $password) !== false) {
-        header("location: ../Registration.php?error=emptyinput");
+        header("location: ../../Registration.php?error=emptyinput");
         exit();
     }
+
+    if (invalidEmail($email) !== false) {
+        header("location: ../../Registration.php?error=invalidemail");
+        exit();
+    }
+
+    if (invalidname($name) !== false) {
+        header("location: ../../Registration.php?error=invalidname");
+    }
+
+    if (uidExists($conn, $email) !== false) {
+        header("locaiton: ../../Registration.php?error=usernametaken");
+    }
+
+    createUser($conn, $name, $email, $pwd);
+}
+else {
+    header("location: ../../Registration.php");
+    exit();
 }
