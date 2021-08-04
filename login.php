@@ -28,7 +28,7 @@
                     <!-- <div class="form__container"> -->
                         <h2 class="form__title">Login in to your Account</h2>
                         <form action="sub" class="form">
-                            <input type="email" class="email__input" placeholder="Email or username">
+                            <input type="email" class="email__input" placeholder="Email">
                             
                             <input type="text" class="password__input" placeholder="Password">
                             <!-- <input type="submit" value="Login in" class="login__button"> -->
