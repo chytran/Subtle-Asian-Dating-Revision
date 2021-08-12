@@ -46,8 +46,7 @@
                         </div> -->
                         <button type="submit" name="submit" class="signup__button">Sign Up</button>
                     </form> 
-                </div>
-                <?php
+                    <?php
                 if (isset($_GET["error"])) {
                     if($_GET["error"] == "emptyinput") {
                         echo "<p>Fill in all fields! </p>";
@@ -69,6 +68,7 @@
                     }
                 }
                 ?>
+                </div>
             </div>
         </section>
     </main>
