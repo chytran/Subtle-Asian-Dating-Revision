@@ -23,11 +23,11 @@ if (isset($_POST["submit"])) {
         header("location: ../../Registration.php?error=invalidname");
     }
 
-    if (uidExists($conn, $email) !== false) {
+    if (uidExists($conn, $name, $email) !== false) {
         header("locaiton: ../../Registration.php?error=usernametaken");
     }
 
-    createUser($conn, $name, $email, $pwd);
+    createUser($conn, $name, $email, $password);
 }
 else {
     header("location: ../../Registration.php");

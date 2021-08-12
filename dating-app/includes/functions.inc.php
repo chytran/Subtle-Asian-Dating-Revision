@@ -22,6 +22,17 @@ function invalidEmail($email) {
     return $result;
 }
 
+function invalidname($name) {
+    $result;
+    if (!preg_match("/^[a-zA-Z0-9]*$/", $name)) {
+        $result = true;
+    }
+    else {
+        $result = false;
+    }
+    return $result;
+}
+
 function uidExists($conn, $name, $email) {
     $sql = "SELECT * FROM users WHERE userName = ? or userEmail = ?;";
     $stmt = mysqli_stmt_init($conn);
@@ -48,7 +59,7 @@ function uidExists($conn, $name, $email) {
 }
 
 function createUser($conn, $name, $email, $pwd) {
-    $sql = "INSERT INTO users (userName, userEmail, userPassword)";
+    $sql = "INSERT INTO users (userName, userEmail, userPassword) VALUES (?, ?, ?);";
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
         header("location: ../../Registration.php?error=stmtfailed");
