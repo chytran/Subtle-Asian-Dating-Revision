@@ -48,7 +48,7 @@ function uidExists($conn, $name, $email) {
 }
 
 function createUser($conn, $name, $email, $pwd) {
-    $sql = "INSERT INTO users (userName, userEmail, userPassword");
+    $sql = "INSERT INTO users (userName, userEmail, userPassword)";
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
         header("location: ../../Registration.php?error=stmtfailed");

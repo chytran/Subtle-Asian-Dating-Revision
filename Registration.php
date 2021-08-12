@@ -27,7 +27,7 @@
                 <div class="form__content__signup">
                     <h1 class="signup__header">Sign Up</h1>
                     <hr class="divider">
-                    <form action="dating-app/includes/signup.inc.php" class="form">
+                    <form action="dating-app/includes/signup.inc.php" class="form" method="POST">
                         <div class="name__container">
                             <spam class="name__title">Name</spam>
                             <input type="text" name="name" class="input"></input>
