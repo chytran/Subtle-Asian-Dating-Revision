@@ -38,15 +38,22 @@
                         </div>
                         <div class="password__container">
                             <spam class="password__title">Password</spam>
-                            <input type="text" name="password" class="input"></input>
+                            <input type="password" name="password" class="input"></input>
                         </div>
-                        <div class="radio__container">
+                        <!-- <div class="radio__container">
                             <input type="radio" class="accept">
                             <span class="term__of__use">I accept the terms of use</span>
-                        </div>
+                        </div> -->
                         <button type="submit" name="submit" class="signup__button">Sign Up</button>
                     </form> 
                 </div>
+                <?php
+                if (isset($_GET["error"])) {
+                    if($_GET["error"] == "emptyinput") {
+                        echo "<p>Fill in all fields! </p>";
+                    }
+                }
+                ?>
             </div>
         </section>
     </main>
