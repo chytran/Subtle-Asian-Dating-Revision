@@ -65,6 +65,7 @@
                     }
                     else if ($_GET["error"] == "none") {
                         echo "<p>You have signed up</p>";
+                        header("location: ../login.php");
                     }
                 }
                 ?>
