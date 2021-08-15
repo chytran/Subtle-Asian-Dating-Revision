@@ -27,7 +27,7 @@
 
                     <!-- <div class="form__container"> -->
                         <h2 class="form__title">Login in to your Account</h2>
-                        <form action="sub" class="form">
+                        <form action="dating-app/includes/login.inc.php" method="POST" class="form">
                             <input type="email" name="email" class="email__input" placeholder="Email">
                             
                             <input type="text" name="password" class="password__input" placeholder="Password">

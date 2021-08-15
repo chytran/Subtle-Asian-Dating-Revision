@@ -37,7 +37,9 @@
         </div>
     </section>
     <section class="hero__matches">
-
+        <?php
+            echo "<p>$result["id"]</p>";
+        ?>
     </section>
 </body>
 </html>
