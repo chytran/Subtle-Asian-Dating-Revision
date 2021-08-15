@@ -1,3 +1,6 @@
+<?php
+    include_once "matches.inc.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,6 +35,9 @@
                 </ul>
             </nav>
         </div>
+    </section>
+    <section class="hero__matches">
+
     </section>
 </body>
 </html>
