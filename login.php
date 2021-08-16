@@ -37,6 +37,19 @@
                         
                         <button class="forget__button"><a class="forget__link" href="Registration.php">Register Now</a></button>
                         <button class="forget__button"><a class="forget__link" href="ResetPassword.php">Forgot Password?</a></button>
+                        <?php
+                            if (isset($_GET["error"])) {
+                                if ($_GET["error"] == "emptyinput") {
+                                    echo "<p>Fill in all fields</p>";
+                                }
+                                else if ($_GET["error"] == "wronglogin") {
+                                    echo "<p>Incorrect username</p>";
+                                }
+                                else if ($_GET["error"] == "wrongpassword") {
+                                    echo "<p>Wrong Password</p>";
+                                }
+                            }
+                        ?>
                     </form>
                     
                     <!-- </div> -->
