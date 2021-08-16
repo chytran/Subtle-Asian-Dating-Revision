@@ -26,19 +26,19 @@
                     </div>
 
                     <!-- <div class="form__container"> -->
-                        <h2 class="form__title">Login in to your Account</h2>
-                        <form action="dating-app/includes/login.inc.php" method="POST" class="form">
-                            <input type="email" name="email" class="email__input" placeholder="Email">
-                            
-                            <input type="text" name="password" class="password__input" placeholder="Password">
-                            <!-- <input type="submit" value="Login in" class="login__button"> -->
-                            
-                            <input type="submit" value="Login in" class="login__button">
-                            
-                            <button class="forget__button"><a class="forget__link" href="Registration.php">Register Now</a></button>
-                            <button class="forget__button"><a class="forget__link" href="ResetPassword.php">Forgot Password?</a></button>
-                        </form>
+                    <h2 class="form__title">Login in to your Account</h2>
+                    <form action="dating-app/includes/login.inc.php" method="POST" class="form">
+                        <input type="email" name="email" class="email__input" placeholder="Email">
                         
+                        <input type="text" name="password" class="password__input" placeholder="Password">
+                        <!-- <input type="submit" value="Login in" class="login__button"> -->
+                        
+                        <button type="submit" name="submit" class="login__button">Login in</button>
+                        
+                        <button class="forget__button"><a class="forget__link" href="Registration.php">Register Now</a></button>
+                        <button class="forget__button"><a class="forget__link" href="ResetPassword.php">Forgot Password?</a></button>
+                    </form>
+                    
                     <!-- </div> -->
                 </div>
 
