@@ -33,8 +33,8 @@ function invalidname($name) {
     return $result;
 }
 
-function uidExists($conn, $name, $email) {
-    $sql = "SELECT * FROM users WHERE userName = ? or userEmail = ?;";
+function uidExists($conn, $username, $email) {
+    $sql = "SELECT * FROM users WHERE userName = ? OR userEmail = ?;";
     $stmt = mysqli_stmt_init($conn);
     mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT); 
     if (!mysqli_stmt_prepare($stmt, $sql)) {
@@ -42,7 +42,7 @@ function uidExists($conn, $name, $email) {
         exit();
     }
 
-    mysqli_stmt_bind_param($stmt, "ss", $name, $email);
+    mysqli_stmt_bind_param($stmt, "ss", $username, $email);
     mysqli_stmt_execute($stmt);
 
     $resultData = mysqli_stmt_get_result($stmt);
@@ -88,7 +88,7 @@ function emptyInputLogin($email, $pwd) {
 }
 
 function loginUser($conn, $email, $password) {
-    $uidExists = uidExists($conn, $username, $username);
+    $uidExists = uidExists($conn, $email, $email);
 
     if ($uidExists === false) {
         header("location: ../../login.php?error=wronglogin");
