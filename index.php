@@ -26,13 +26,8 @@
                     <li class="nav__item"><a href="#" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="#" class="nav__link">Matches</a></li>
                     <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
-                    <!-- <li class="nav__item"><a href="#" class="nav__link">Register</a></li> -->
-                    <li class="nav__item"><a href="dating-app/includes/logout.inc.php" class="nav__link">Logout</a></li>
-                    <?php
-                        if (!isset($_SESSION["userEmail"])) {
-                            header("location: index.php");
-                        }
-                    ?>
+                    <li class="nav__item"><a href="#" class="nav__link">Register</a></li>
+                    <!-- <li class="nav__item"><a href="dating-app/includes/logout.inc.php" class="nav__link">Logout</a></li> -->
                 </ul>
             </nav>
         </div>
