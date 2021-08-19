@@ -29,8 +29,11 @@
                     <!-- <li class="nav__item"><a href="#" class="nav__link">Register</a></li> -->
                     <li class="nav__item"><a href="dating-app/includes/logout.inc.php" class="nav__link">Logout</a></li>
                     <?php
-                        if (!isset($_SESSION["userEmail"])) {
+                        if (!isset($_SESSION["userEmail"]) or !isset($_SESSION["userid"])) {
                             header("location: index.php");
+                        }
+                        else {
+                            header("location: home.php");
                         }
                     ?>
                 </ul>
