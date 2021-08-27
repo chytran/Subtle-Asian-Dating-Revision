@@ -79,6 +79,7 @@ function createUser($conn, $name, $email, $pwd) {
 }
 
 
+
 function emptyInputLogin($email, $pwd) {
     $result;
     if (empty($email) || empty($pwd)) {
