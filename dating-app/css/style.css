@@ -513,6 +513,10 @@ section {
   padding-bottom: 0.1rem;
 }
 
+.signup__to__login {
+  margin-top: 1.3rem;
+}
+
 .signup__header {
   height: 20%;
   font-size: 1.6rem;

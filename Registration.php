@@ -45,6 +45,7 @@
                             <span class="term__of__use">I accept the terms of use</span>
                         </div> -->
                         <button type="submit" name="submit" class="signup__button">Sign Up</button>
+                        <a href="login.php" class="signup__to__login">Login</a>
                     </form> 
                     <?php
                 if (isset($_GET["error"])) {
