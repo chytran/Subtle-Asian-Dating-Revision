@@ -12,7 +12,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    background-color: #111;
+    // background-color: #111;
 }
 
 input {
@@ -398,13 +398,27 @@ section {
     font-weight: 500;
     transition: 0.5s;
     cursor: pointer;
-    align-self: flex-start;
+    align-self: center;
     margin-left: 0.75rem;
     padding-bottom: 0.1rem;
 }
 
 .signup__to__login {
-    margin-top: 1.3rem;
+    margin-top: 1.5rem;
+    color: #121212;
+    font-size: 20px;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 500;
+    transition: 0.5s;
+    cursor: pointer;
+    align-self: center;
+    margin-left: 0.75rem;
+    padding-bottom: 0.1rem;
+    text-decoration: none;
+}
+
+.signup__to__login:hover {
+    opacity: 0.8;
 }
 
 .signup__header {

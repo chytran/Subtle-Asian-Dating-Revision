@@ -24,7 +24,7 @@
                 <ul class="nav__list">
                     <li class="nav__item"><a href="/dating-app/html/home.html" class="nav__link">Home</a></li>
                     <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Matches</a></li>
+                    <li class="nav__item"><a href="matches.php" class="nav__link">Matches</a></li>
                     <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
                     <!-- <li class="nav__item"><a href="Registration.php" class="nav__link">Register</a></li> -->
                     <li class="nav__item"><a href="login.php" class="nav__link">Login</a></li>

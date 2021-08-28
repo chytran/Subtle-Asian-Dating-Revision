@@ -1,5 +1,5 @@
 <?php
-    include_once "matches.inc.php";
+    require "dating-app/includes/matches.inc.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +18,7 @@
 </head>
 <body>
     <!-- NAV -->
-    <section class="nav" id="nav">
+    <!-- <section class="nav" id="nav">
         <div class="nav__container" id="nav-container">
             <div class="logo__container">
                 <a class="logo">Subtle Asian Dating</a>
@@ -35,10 +35,10 @@
                 </ul>
             </nav>
         </div>
-    </section>
+    </section> -->
     <section class="hero__matches">
         <?php
-            echo "<p>$result["id"]</p>";
+            echo "<p>hi</p>";
         ?>
     </section>
 </body>
